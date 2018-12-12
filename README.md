@@ -1,12 +1,12 @@
 # contenteditable
-vue中div模拟输入框插入表情以光标问题的解决
+vue中div模拟输入框插入表情以及光标问题的解决
 
 ```
 <pre class="input-box" contenteditable id="input-box" @keyup.enter="send" @input="inputContent"></pre>
 ```
 在vue中用有两个问题
 
-1. 光标跑偏
+1.光标跑偏
 
 2.无法双向绑定数据
 
